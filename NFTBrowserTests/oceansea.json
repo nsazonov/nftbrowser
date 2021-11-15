@@ -1,0 +1,105 @@
+{
+  "assets": [
+    {
+      "id": 100781426,
+      "token_id": "27597469685510251150726668938838470896007005543910680048260399082297328926721",
+      "num_sales": 0,
+      "background_color": null,
+      "image_url": "https://lh3.googleusercontent.com/K9zvzFCnnJ63aJbIE7ZZoQVvTls3mMXhoOSjcyII_hJ9VBYbnIy13own05RjRO_KpsPtbY5KrWQg6GqUSLKnd0cJDyR1SgeXmeOF",
+      "image_preview_url": "https://lh3.googleusercontent.com/K9zvzFCnnJ63aJbIE7ZZoQVvTls3mMXhoOSjcyII_hJ9VBYbnIy13own05RjRO_KpsPtbY5KrWQg6GqUSLKnd0cJDyR1SgeXmeOF=s250",
+      "image_thumbnail_url": "https://lh3.googleusercontent.com/K9zvzFCnnJ63aJbIE7ZZoQVvTls3mMXhoOSjcyII_hJ9VBYbnIy13own05RjRO_KpsPtbY5KrWQg6GqUSLKnd0cJDyR1SgeXmeOF=s128",
+      "image_original_url": null,
+      "animation_url": null,
+      "animation_original_url": null,
+      "name": "#263",
+      "description": "Here and now you can improve your life. It's like a squid game, only you're not playing for life. How much have you already lost by buying art for nothing and trading crypts, there are 456 places here and everyone has the same chance to win. Among all the owners of our collection live by numbers, we will raffle $23,000. Read more on Twitter. 60 numbers-200$ 5 numbers-400$ 2 numbers-500$ 2 numbers-1000$ 1 number-6000$\n\n",
+      "external_link": null,
+      "asset_contract": {
+        "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+        "asset_contract_type": "semi-fungible",
+        "created_date": "2020-12-02T17:40:53.232025",
+        "name": "OpenSea Collection",
+        "nft_version": null,
+        "opensea_version": "2.0.0",
+        "owner": 102384,
+        "schema_name": "ERC1155",
+        "symbol": "OPENSTORE",
+        "total_supply": null,
+        "description": "",
+        "external_link": null,
+        "image_url": null,
+        "default_to_fiat": false,
+        "dev_buyer_fee_basis_points": 0,
+        "dev_seller_fee_basis_points": 0,
+        "only_proxied_transfers": false,
+        "opensea_buyer_fee_basis_points": 0,
+        "opensea_seller_fee_basis_points": 250,
+        "buyer_fee_basis_points": 0,
+        "seller_fee_basis_points": 250,
+        "payout_address": null
+      },
+      "permalink": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/27597469685510251150726668938838470896007005543910680048260399082297328926721",
+      "collection": {
+        "banner_image_url": "https://lh3.googleusercontent.com/B_CbP2mDmrH3S5P0RpI8Gn7oYDwZY37Uw1GkHRu6UY0a676e61hjE48XLrMlZ2RprR3cbu5TnmeLaD6F6O3j7LFqfNcoLKUU55bf=s2500",
+        "chat_url": null,
+        "created_date": "2021-11-12T22:20:09.470542",
+        "default_to_fiat": false,
+        "description": "Here and now you can improve your life. It's like a squid game, only you're not playing for life. How much have you already lost by buying art for nothing and trading crypts, there are 456 places here and everyone has the same chance to win. Among all the owners of our collection live by numbers, we will raffle $23,000. Read more on Twitter.",
+        "dev_buyer_fee_basis_points": "0",
+        "dev_seller_fee_basis_points": "0",
+        "discord_url": null,
+        "display_data": {
+          "card_display_style": "contain"
+        },
+        "external_url": null,
+        "featured": false,
+        "featured_image_url": "https://lh3.googleusercontent.com/YIMx58hraBTY4v3wziVwszoWpJVPmy-9ODZAiuy8z8Zz4UsCQ-PZ2ewSnJXBDyRFYzfel4mdRR9gstzxxabHm9x1H0vmQ98Y_9oopQ=s300",
+        "hidden": false,
+        "safelist_request_status": "not_requested",
+        "image_url": "https://lh3.googleusercontent.com/YIMx58hraBTY4v3wziVwszoWpJVPmy-9ODZAiuy8z8Zz4UsCQ-PZ2ewSnJXBDyRFYzfel4mdRR9gstzxxabHm9x1H0vmQ98Y_9oopQ=s120",
+        "is_subject_to_whitelist": false,
+        "large_image_url": "https://lh3.googleusercontent.com/YIMx58hraBTY4v3wziVwszoWpJVPmy-9ODZAiuy8z8Zz4UsCQ-PZ2ewSnJXBDyRFYzfel4mdRR9gstzxxabHm9x1H0vmQ98Y_9oopQ=s300",
+        "medium_username": null,
+        "name": "Squid Game Real Life",
+        "only_proxied_transfers": false,
+        "opensea_buyer_fee_basis_points": "0",
+        "opensea_seller_fee_basis_points": "250",
+        "payout_address": null,
+        "require_email": false,
+        "short_description": null,
+        "slug": "squidgamereallife",
+        "telegram_url": null,
+        "twitter_username": null,
+        "instagram_username": null,
+        "wiki_url": null
+      },
+      "decimals": null,
+      "token_metadata": null,
+      "owner": {
+        "user": {
+          "username": "NullAddress"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/1.png",
+        "address": "0x0000000000000000000000000000000000000000",
+        "config": ""
+      },
+      "sell_orders": null,
+      "creator": {
+        "user": {
+          "username": "NUMBERSSSSSSSSSSSSSSSSSS"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/27.png",
+        "address": "0x3d039d430250a10f969718ee95500a63cc2b24e1",
+        "config": ""
+      },
+      "traits": [],
+      "last_sale": null,
+      "top_bid": null,
+      "listing_date": null,
+      "is_presale": true,
+      "transfer_fee_payment_token": null,
+      "transfer_fee": null
+    }
+  ]
+}
+
