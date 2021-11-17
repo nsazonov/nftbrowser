@@ -70,21 +70,18 @@ class OceanSeaClient {
                 return
             }
             do {
-                if let responseString = String(data: data, encoding: .utf8) {
-                    os_log("Server response: %s.", log: Log.client, type: .debug, responseString)
-                }
                 let response = try JSONDecoder().decode(OceanSeaResponse.self, from: data)
                 DispatchQueue.main.async {
                     if let assets = response.assets, !assets.isEmpty {
                         let nextToken = currentNextToken?.offset(by: assets.count) ?? NextToken(offset: assets.count)
                         os_log("Received %d items on initial fetch. Next token %s",
                                log: Log.client,
-                               type: .debug,
+                               type: .default,
                                assets.count,
                                nextToken.description)
                         completion(.success(.assets(assets, nextToken)))
                     } else {
-                        os_log("No assets recevied.", log: Log.client, type: .debug)
+                        os_log("No assets recevied.", log: Log.client, type: .default)
                         completion(.success(.empty))
                     }
                 }

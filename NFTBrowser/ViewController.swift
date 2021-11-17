@@ -33,17 +33,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.dataSource = self
         tableView.frame = view.bounds
         view.addSubview(tableView)
-        os_log("Initial data fetch.", log: Log.table, type: .debug)
+        os_log("Initial data fetch.", log: Log.table, type: .default)
         client.fetchAssets {[weak self] result in
             switch result {
             case .success(let result):
                 switch result {
                 case .empty:
-                    os_log("No data on initial fetch.", log: Log.table, type: .info)
+                    os_log("No data on initial fetch.", log: Log.table, type: .default)
                 case .assets(let assets, let nextToken):
                     self?.assets = assets
                     self?.nextToken = nextToken
-                    os_log("Received %d items on initial fetch. Next token %s", log: Log.table, type: .info, assets.count, nextToken.description)
+                    os_log("Received %d items on initial fetch. Next token %s", log: Log.table, type: .default, assets.count, nextToken.description)
                 }
             case .failure(let error):
                 os_log("Client error %s", log: Log.table, type: .error, error.description)
