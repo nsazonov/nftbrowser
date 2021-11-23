@@ -1,7 +1,7 @@
 import Foundation
 import os
 
-enum OceanSeaError: Error, CustomStringConvertible {
+enum OpenSeaError: Error, CustomStringConvertible {
     case networkError(Error)
     case responseError
     var description: String {
@@ -28,16 +28,16 @@ struct NextToken: CustomStringConvertible {
     }
 }
 
-enum OceanSeaResult {
+enum OpenSeaResult {
     case assets([Asset], NextToken)
     case empty
 }
 
-class OceanSeaClient {
+class OpenSeaClient {
     let resultsLimit = 20
     let assetsUrl = "https://api.opensea.io/api/v1/assets?order_direction=desc"
     let defaultLimit = 30
-    typealias CompletionHandler = ((Result<OceanSeaResult, OceanSeaError>) -> Void)
+    typealias CompletionHandler = ((Result<OpenSeaResult, OpenSeaError>) -> Void)
                 
     func fetchAssets(_ completion: @escaping CompletionHandler) {
         runDataTask(nextToken: nil, completion)
@@ -70,7 +70,7 @@ class OceanSeaClient {
                 return
             }
             do {
-                let response = try JSONDecoder().decode(OceanSeaResponse.self, from: data)
+                let response = try JSONDecoder().decode(OpenSeaResponse.self, from: data)
                 DispatchQueue.main.async {
                     if let assets = response.assets, !assets.isEmpty {
                         let nextToken = currentNextToken?.offset(by: assets.count) ?? NextToken(offset: assets.count)

@@ -1,6 +1,6 @@
 import Foundation
 
-struct OceanSeaResponse: Decodable {
+struct OpenSeaResponse: Decodable {
     let assets: [Asset]?
 }
 
