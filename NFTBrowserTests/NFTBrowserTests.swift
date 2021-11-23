@@ -4,7 +4,7 @@ import XCTest
 class NFTBrowserTests: XCTestCase {
     
     func testParser() {
-        let file = Bundle(for: type(of: self)).url(forResource: "oceansea", withExtension: "json")
+        let file = Bundle(for: type(of: self)).url(forResource: "opensea", withExtension: "json")
         let response = try! JSONDecoder().decode(OpenSeaResponse.self, from: Data(contentsOf: file!.absoluteURL))
         XCTAssertNotNil(response)
         XCTAssertNotNil(response.assets)

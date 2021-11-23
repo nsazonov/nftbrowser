@@ -16,7 +16,7 @@
 		12E30C8A273F16620016EDD0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E30C89273F16620016EDD0 /* TableViewCell.swift */; };
 		12E30C90273F20DA0016EDD0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E30C8F273F20DA0016EDD0 /* TableViewCell.xib */; };
 		12E30C98274040070016EDD0 /* NFTBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E30C97274040070016EDD0 /* NFTBrowserTests.swift */; };
-		12E30C9F274041050016EDD0 /* oceansea.json in Resources */ = {isa = PBXBuildFile; fileRef = 12E30C9E274041050016EDD0 /* oceansea.json */; };
+		12E30C9F274041050016EDD0 /* opensea.json in Resources */ = {isa = PBXBuildFile; fileRef = 12E30C9E274041050016EDD0 /* opensea.json */; };
 		12E30CA1274081BD0016EDD0 /* OpenSeaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E30CA0274081BD0016EDD0 /* OpenSeaResponse.swift */; };
 		12E30CA32740D4990016EDD0 /* OpenSeaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E30CA22740D4990016EDD0 /* OpenSeaClient.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,7 @@
 		12E30C8F273F20DA0016EDD0 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		12E30C95274040070016EDD0 /* NFTBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFTBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E30C97274040070016EDD0 /* NFTBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTBrowserTests.swift; sourceTree = "<group>"; };
-		12E30C9E274041050016EDD0 /* oceansea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oceansea.json; sourceTree = "<group>"; };
+		12E30C9E274041050016EDD0 /* opensea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = opensea.json; sourceTree = "<group>"; };
 		12E30CA0274081BD0016EDD0 /* OpenSeaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaResponse.swift; sourceTree = "<group>"; };
 		12E30CA22740D4990016EDD0 /* OpenSeaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,7 +106,7 @@
 		12E30C96274040070016EDD0 /* NFTBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				12E30C9E274041050016EDD0 /* oceansea.json */,
+				12E30C9E274041050016EDD0 /* opensea.json */,
 				12E30C97274040070016EDD0 /* NFTBrowserTests.swift */,
 			);
 			path = NFTBrowserTests;
@@ -203,7 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E30C9F274041050016EDD0 /* oceansea.json in Resources */,
+				12E30C9F274041050016EDD0 /* opensea.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
