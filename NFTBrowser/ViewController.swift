@@ -5,7 +5,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     private static let cellIdentifier = "cellIdentifier"
     
-    private let client = OceanSeaClient()
+    private let client = OpenSeaClient()
     
     private let imageDownloader = ImageDownloader()
     
