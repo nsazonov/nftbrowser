@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12CE8B8F27470BC6002010D4 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE8B8E27470BC6002010D4 /* ImageDownloader.swift */; };
 		12D20EA32741E241004F68FD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D20EA22741E240004F68FD /* Logger.swift */; };
 		12E30C74273F11370016EDD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E30C73273F11370016EDD0 /* AppDelegate.swift */; };
 		12E30C76273F11370016EDD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E30C75273F11370016EDD0 /* SceneDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12CE8B8E27470BC6002010D4 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		12D20EA22741E240004F68FD /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		12E30C70273F11370016EDD0 /* NFTBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E30C73273F11370016EDD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				12E30CA0274081BD0016EDD0 /* OceanSeaResponse.swift */,
 				12E30CA22740D4990016EDD0 /* OceanSeaClient.swift */,
 				12D20EA22741E240004F68FD /* Logger.swift */,
+				12CE8B8E27470BC6002010D4 /* ImageDownloader.swift */,
 			);
 			path = NFTBrowser;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				12E30C78273F11370016EDD0 /* ViewController.swift in Sources */,
 				12E30C74273F11370016EDD0 /* AppDelegate.swift in Sources */,
 				12E30CA1274081BD0016EDD0 /* OceanSeaResponse.swift in Sources */,
+				12CE8B8F27470BC6002010D4 /* ImageDownloader.swift in Sources */,
 				12D20EA32741E241004F68FD /* Logger.swift in Sources */,
 				12E30CA32740D4990016EDD0 /* OceanSeaClient.swift in Sources */,
 				12E30C76273F11370016EDD0 /* SceneDelegate.swift in Sources */,

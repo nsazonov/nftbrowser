@@ -7,6 +7,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     private let client = OceanSeaClient()
     
+    private let imageDownloader = ImageDownloader()
+    
     private var assets: [Asset] = []
     
     private var nextToken: NextToken?
@@ -84,7 +86,24 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     // in case of network error we want to make another attempt to load data
                     self?.nextToken = nextToken
                 }
+                os_log("Reload table.", log: Log.table, type: .default)
                 self?.tableView.reloadData()
+            }
+        }
+        guard let urlString = assets[indexPath.row].thumbnailUrl, let url = URL(string: urlString) else {
+            tableCell.nftImage = nil
+            return
+        }
+        tableCell.tag = indexPath.row
+        imageDownloader.fetchImage(url: url) { result in
+            if tableCell.tag != indexPath.row {
+                return
+            }
+            switch result {
+            case .failure:
+                tableCell.nftImage = nil
+            case .success(let image):
+                tableCell.nftImage = image
             }
         }
     }

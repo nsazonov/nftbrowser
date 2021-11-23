@@ -54,7 +54,7 @@ class OceanSeaClient {
             queryItems += [URLQueryItem(name: "offset", value: String(currentNextToken.offset))]
         }
         components.queryItems = queryItems
-        let task = URLSession.shared.dataTask(with: components.url!) { data, _, networkError in
+        URLSession.shared.dataTask(with: components.url!) { data, _, networkError in
             if let networkError = networkError {
                 DispatchQueue.main.async {
                     os_log("Network error %s.", log: Log.client, type: .error, networkError.localizedDescription)
@@ -91,7 +91,6 @@ class OceanSeaClient {
                     completion(.failure(.responseError))
                 }
             }
-        }
-        task.resume()
+        }.resume()        
     }
 }
